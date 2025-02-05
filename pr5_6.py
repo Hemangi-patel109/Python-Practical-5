@@ -1,0 +1,15 @@
+# Check all the methods of tuple.
+
+my_tuple = (1,2,'a',3.14,'b',2)
+print(my_tuple) 
+print("Count of 2:",my_tuple.count(2))
+print("Index of 'a':",my_tuple.index('a'))
+print("Length of tuple: ",len(my_tuple))
+print("Does tuple contain 'a': ",'a' in my_tuple)
+print("Element at index 3:",my_tuple[3])
+tuple2 = ('x','y','z')
+print("Tuple2:",tuple2)
+print("Combined tuple: ",my_tuple+tuple2)
+print("Repeated tuple: ",my_tuple*2)
+print("my_tuple == tuple2? : ",my_tuple==tuple2)
+print("my_tuple != tuple2? : ",my_tuple!=tuple2)
